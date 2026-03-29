@@ -98,7 +98,7 @@ export const SOCIALS = [
     name: "Facebook",
     icon: FaFacebook,
     link: "https://www.facebook.com/DevDylan.1812",
-  }
+  },
 ] as const;
 
 export const FRONTEND_SKILL = [
@@ -236,33 +236,32 @@ export const FULLSTACK_SKILL = [
   },
 ] as const;
 
-
 export const PROJECTS = [
   {
     title: "AImpact (FinWise) – AI Finance Manager",
     description:
-      'Built a full-stack finance app supporting multi-wallet tracking, AI chat-based transaction input, budget planning, and an admin dashboard with PayOS integration.',
+      "Built a full-stack finance app supporting multi-wallet tracking, AI chat-based transaction input, budget planning, and an admin dashboard with PayOS integration.",
     image: "/projects/project-1.png",
     link: "https://aimpact1.netlify.app/",
   },
   {
     title: "OratorAI – AI Presentation Coach",
     description:
-      'Built a real-time presentation analysis system using Faster Whisper, Pyannote.audio, and Gemini AI to deliver automated feedback on speech, slides, and delivery.',
+      "Built a real-time presentation analysis system using Faster Whisper, Pyannote.audio, and Gemini AI to deliver automated feedback on speech, slides, and delivery.",
     image: "/projects/project-2.png",
     link: "https://fptoratorai.netlify.app/",
   },
   {
     title: "EVCare – Multi-Branch EV Management",
     description:
-      'Built a full-stack multi-branch system for EV service centers with AI-driven workflow automation, inventory management, and payment integration.',
+      "Built a full-stack multi-branch system for EV service centers with AI-driven workflow automation, inventory management, and payment integration.",
     image: "/projects/project-4.png",
     link: "https://evcare.systems/",
   },
   {
     title: "Quizlingo – AI-Powered English Learning",
     description:
-      'Built an adaptive English learning platform with OpenAI-powered quizzes that adjust to user performance across reading, writing, listening, and speaking.',
+      "Built an adaptive English learning platform with OpenAI-powered quizzes that adjust to user performance across reading, writing, listening, and speaking.",
     image: "/projects/project-3.png",
     link: "https://github.com/devbaoo/BE_Quizlingo",
   },
@@ -337,5 +336,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "/VU Thanh duc.pdf",
+  sourceCode: "/CV_VuThanhDuc_Fullstack_Developer.pdf",
 };
